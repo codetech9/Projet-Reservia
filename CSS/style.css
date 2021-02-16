@@ -749,12 +749,14 @@ li.filtres-list:hover {
     #ctr-populaires {
         width: 100%;
         max-width: 100%;
+        border-radius: 0;
     }
 
     /*section Hebergements à Marseille*/
     #hebergement {
         width: 100%;
         max-width: 100%;
+        border-radius: 0;
     }
 
     #hebergement-cards .h-list {
@@ -813,6 +815,11 @@ li.filtres-list:hover {
 }
 
 /*-------------------- Animartions -------------------------*/
+
+/*liens barre de navigation*/
+.link:hover {
+    border-top: none;
+}
 
 /*Animations filtres*/
 li.filtres-list:hover {
