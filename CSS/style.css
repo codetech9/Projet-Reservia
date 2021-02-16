@@ -817,8 +817,8 @@ li.filtres-list:hover {
 /*-------------------- Animartions -------------------------*/
 
 /*liens barre de navigation*/
-.link:hover {
-    border-top: none;
+@media (hover: none) {
+    .link:hover { border-top: none; }
 }
 
 /*Animations filtres*/
